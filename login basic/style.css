@@ -1,0 +1,42 @@
+body{
+    background: #f09414;
+}
+.container{
+    background: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+form{
+    margin-left: 10px;
+}
+form h1{
+    text-align: center;
+}
+.username{
+    font-size: 20px;
+}
+form input{
+    margin-bottom: 10px;
+}
+.password{
+    font-size: 20px;
+}
+form button{
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f0c414;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+form button:hover{
+    background: #d27905;
+    color:white;
+}
+form input:hover{
+    border:2px solid #f39107;
+}
